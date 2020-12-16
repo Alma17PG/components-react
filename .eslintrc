@@ -2,7 +2,8 @@
   "extends": "airbnb",
   "parser": "babel-eslint",
   "ecmaFeatures": {
-    "jsx": true
+    "jsx": true,
+    "modules": true
   },
   "plugins": [
     "react"
@@ -23,6 +24,6 @@
   },
   "env": {
     "browser": true,
-    "jest": true
+    "jest": true,
   }
 }
