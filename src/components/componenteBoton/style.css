@@ -1,0 +1,11 @@
+.ComponenteBoton {
+    position: absolute;
+    color: white;
+    background-color: rgb(254,128,92);
+    border-radius:1rem;
+    border: orange;
+    width: 142px;
+    height: 40px;
+    left: calc(50% - 142px/2 - 444px);
+    bottom: 404px;
+  }
