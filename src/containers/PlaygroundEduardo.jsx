@@ -1,9 +1,10 @@
 import React from 'react';
+import rate from '../components/rate';
 
-const PlaygroundAlma = () => (
+const PlaygroundEduardo = () => (
   <div>
-    Esto es un JSX :D 
+    <rate />
   </div>
 );
 
-export default PlaygroundAlma;
+export default PlaygroundEduardo;
