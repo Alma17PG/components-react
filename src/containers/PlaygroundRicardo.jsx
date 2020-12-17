@@ -1,8 +1,9 @@
 import React from 'react';
+import InputRick from '../components/Input';
 
 const PlaygroundRicardo = () => (
   <div>
-    El poderoso Rick
+    <InputRick />
   </div>
 );
 
