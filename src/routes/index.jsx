@@ -7,6 +7,7 @@ import PlaygroundCarlos from '../containers/PlaygroundCarlos';
 import UnicoDetergente from '../containers/UnicoDetergente';
 import PlaygroundCesar from '../containers/PlaygroundCesar';
 import PlaygroundMichell from '../containers/PlaygroundMichell';
+import PlaygroundEduardo from '../containers/PlaygroundEduardo';
 
 const Routes = () => (
   <BrowserRouter>
@@ -17,6 +18,7 @@ const Routes = () => (
       <Route exact path="/martin" component={UnicoDetergente} />
       <Route exact path="/cesar" component={PlaygroundCesar} />
       <Route exact path="/michell" component={PlaygroundMichell} />
+      <Route exact path="/eduardo" component={PlaygroundEduardo} />
     </Switch>
   </BrowserRouter>
 );
