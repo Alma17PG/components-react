@@ -8,4 +8,9 @@
     height: 40px;
     left: calc(50% - 142px/2 - 444px);
     bottom: 404px;
-  }
+    cursor:pointer; cursor: hand;
+}
+
+.ComponenteBoton:hover{
+    background-color: rgb(1, 245, 1);
+}
