@@ -3,7 +3,7 @@ import './style.css';
 
 const ComponenteBoton = () => (
     <div>
-        <button className ="ComponenteBoton"> Hire me </button>
+        <button className ="ComponenteBoton" > Hire me </button>
     </div>
 );
 
