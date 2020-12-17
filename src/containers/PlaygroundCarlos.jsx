@@ -1,8 +1,11 @@
 import React from 'react';
+import ComponentCard from "../components/ComponentCard";
 
 const PlaygroundCarlos = () => (
   <div>
-    Carlos el mejor
+    <ComponentCard>
+    
+    </ComponentCard>
   </div>
 );
 
