@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import { Sparklines, SparklinesLine, SparklinesSpots} from 'react-sparklines';
 
 export default function grafica() {
