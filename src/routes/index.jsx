@@ -8,6 +8,7 @@ import UnicoDetergente from '../containers/UnicoDetergente';
 import PlaygroundCesar from '../containers/PlaygroundCesar';
 import PlaygroundMichell from '../containers/PlaygroundMichell';
 import ComponenteBoton from '../components/componenteBoton/ComponenteBoton';
+import PlaygroundEdgar from '../containers/PlaygroundEdgar';
 
 const Routes = () => (
   <BrowserRouter>
@@ -19,6 +20,7 @@ const Routes = () => (
       <Route exact path="/cesar" component={PlaygroundCesar} />
       <Route exact path="/michell" component={PlaygroundMichell} />
       <Route exact path="/componenteBoton" component={ComponenteBoton} />
+      <Route exact path="/edgar" component={PlaygroundEdgar} />
     </Switch>
   </BrowserRouter>
 );

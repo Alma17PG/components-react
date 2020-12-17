@@ -1,8 +1,11 @@
 import React from 'react';
+import CircularImg from '../components/CircularImg';
 
 const PlaygroundCesar = () => (
   <div>
-    Le copie a Carlos
+    <CircularImg>
+
+    </CircularImg>
   </div>
 );
 
