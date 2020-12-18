@@ -1,9 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
+
+import Button from '../componenteBoton/ComponenteBoton';
 
 import './style.css';
 
-const ProgressBar = () => {
-  const percentage = 25;
+const ProgressBar = (props) => {
+  const [percentage, setPercentage] = useState(0);
+
   return (
     <div className="root">
       <div className="progress-bar-back">
@@ -12,6 +15,7 @@ const ProgressBar = () => {
       <div className="progress-bar-percentage">
         {`${percentage}%`}
       </div>
+      <Button onClick={() => setPercentage(percentage + 10)} />
     </div>
   );
 };
