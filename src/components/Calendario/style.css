@@ -1,0 +1,15 @@
+.CuadroCalendario {
+    position: absolute;
+    color: white;
+    background-color: #FE805C;
+    border-radius: 8px;
+    border: orange;
+    width: 40px;
+    height: 50px;
+    left: 1275px;
+    top: 431px;
+    font-family: Montserrat;
+    size: 15px;
+    bottom: 404px;
+    cursor:pointer; cursor: hand;
+}
