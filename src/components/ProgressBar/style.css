@@ -1,0 +1,27 @@
+.root {
+  display: flex;
+  align-items: center;
+}
+
+.root > div{
+  margin: 0px 10px;
+}
+
+.progress-bar-back {
+  background: #F1F1F5;
+  border-radius: 8.5px;
+  width: 266px;
+  height: 6px;
+}
+
+.progress-bar {
+  background: #FE805C;
+  border-radius: 10px;
+  height: 6px;
+}
+
+.progress-bar-percentage {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+}
