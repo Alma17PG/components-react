@@ -1,10 +1,13 @@
 import React from 'react';
 import './style.css';
 
-const ComponenteBoton = () => (
+const ComponenteBoton = (props) => {
+    
+    const { onClick } = props;
+    return(
     <div>
-        <button className ="ComponenteBoton" > Hire me </button>
+        <button onClick={() => onClick()} className ="ComponenteBoton" > Hire me </button>
     </div>
-);
+)};
 
 export default ComponenteBoton;
