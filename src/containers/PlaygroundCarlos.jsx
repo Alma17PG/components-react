@@ -1,11 +1,11 @@
 import React from 'react';
-import ComponentCard from "../components/ComponentCard";
+import ComponentSwitch from '../components/ComponetSwitch/ComponentSwitch';
 
 const PlaygroundCarlos = () => (
   <div>
-    <ComponentCard>
+    <ComponentSwitch>
     
-    </ComponentCard>
+    </ComponentSwitch>
   </div>
 );
 
