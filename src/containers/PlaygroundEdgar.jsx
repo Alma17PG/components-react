@@ -1,10 +1,10 @@
 import React from 'react'
-import Grafica from '../components/grafica'
+import Contador from '../components/contadorEdgar/contador'
 
 const PlaygroundEdgar = () => {
     return (
         <div>
-            <Grafica/>
+        <Contador user="Mega"></Contador>
         </div>
     )
 }
