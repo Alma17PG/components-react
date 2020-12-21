@@ -1,0 +1,26 @@
+.ComponentTabs {
+    color: white;
+    background-color: #4643D3;
+    border-radius:50px;
+    border: #4643D3;
+    width: 168px;
+    height: 57px;
+    left: calc(50% - 400px/2 - 444px);
+    bottom: 404px;
+    cursor:pointer; cursor: hand;
+}
+.ComponentTabsOff {
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    border-radius:50px;
+    border: #000000;
+    width: 168px;
+    height: 57px;
+    left: calc(50% - 400px/2 - 444px);
+    bottom: 404px;
+    cursor:pointer; cursor: hand;
+}
+
+.ComponenteBoton:hover{
+    background-color: rgb(1, 245, 1);
+}
