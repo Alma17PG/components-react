@@ -1,8 +1,9 @@
 import React from 'react';
+import Contador from '../components/componenteBoton/Contador';
 
 const UnicoDetergente = () => (
   <div>
-    Si ya saben como soy pa que me invitan
+    <Contador userName="Martin" />
   </div>
 );
 
