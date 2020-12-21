@@ -1,9 +1,9 @@
 import React from 'react';
-import InputRick from '../components/Input';
+import ContadorRick from '../components/ContadorRick';
 
 const PlaygroundRicardo = () => (
   <div>
-    <InputRick />
+    <ContadorRick user="Rick" />
   </div>
 );
 
