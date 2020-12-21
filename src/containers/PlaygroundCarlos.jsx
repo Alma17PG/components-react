@@ -1,11 +1,11 @@
 import React from 'react';
-import ComponentSwitch from '../components/ComponetSwitch/ComponentSwitch';
+import ComponentTabs from '../components/ComponentTabs/ComponentTabs';
 
 const PlaygroundCarlos = () => (
   <div>
-    <ComponentSwitch>
+    <ComponentTabs>
     
-    </ComponentSwitch>
+    </ComponentTabs>
   </div>
 );
 
