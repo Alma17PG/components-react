@@ -1,9 +1,9 @@
 import React from 'react';
 import './style.css';
 
-const Calendario = () => (
+const Calendario = ({ day }) => (
     <div>
-        <button className ="CuadroCalendario" > 10 </button>
+        <button className ="CuadroCalendario" > {day} </button>
     </div>
 );
 
