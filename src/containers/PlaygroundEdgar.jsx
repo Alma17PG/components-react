@@ -1,10 +1,10 @@
 import React from 'react'
-import Grafica from '../components/grafica'
+import Map from '../components/mapEdgar/map'
 
 const PlaygroundEdgar = () => {
     return (
         <div>
-            <Grafica/>
+            <Map/>
         </div>
     )
 }
