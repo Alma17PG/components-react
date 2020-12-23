@@ -1,11 +1,12 @@
 import React from 'react';
 import CircularImg from '../components/CircularImg';
+import ContadorBoton from '../components/ContadorBoton';
 
 const PlaygroundCesar = () => (
   <div>
-    <CircularImg>
+    <ContadorBoton user='Shiza' >
 
-    </CircularImg>
+    </ContadorBoton>
   </div>
 );
 
