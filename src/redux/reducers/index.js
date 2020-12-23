@@ -1,7 +1,10 @@
-import { SET_TICKET, SET_USER } from '../constants';
+
+
+import { SET_DIA, SET_USER, SET_TICKET } from '../constants';
 
 const defaultState = {
   user: 'alma',
+  dia: 'lunes',
   ticket: 'No se pudo',
 };
 
@@ -12,6 +15,8 @@ const reducer = (state = defaultState, action) => {
       return { ...state, user: value };
     case SET_TICKET:
       return { ...state, ticket: value };
+    case SET_DIA:
+      return {...state, dia: value};
     default:
       return state;
   }
