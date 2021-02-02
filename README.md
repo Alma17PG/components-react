@@ -1,6 +1,6 @@
 # Proyecto curso de React
 
-Proyecto creado para curso impartido en diciembre del 2020.
+Proyecto creado para curso impartido por @Alma17PG en diciembre del 2020.
 
 ## Available Scripts
 
