@@ -2,8 +2,8 @@
 
 Proyecto creado para curso impartido por @Alma17PG en diciembre del 2020.
 
-## Available Scripts
+## Scripts
 
-In the project directory, you can run:
+En el directorio del proyecto, puedes correr:
 
 ### `npm start`
